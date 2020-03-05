@@ -52,5 +52,5 @@ img.emoji {
 }	
 
 .accordion .accordion-inner ul li {
-	float: unset;
+	float: unset !important;
 }
