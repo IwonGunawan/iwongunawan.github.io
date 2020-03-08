@@ -7,11 +7,11 @@ function initBionick() {
 		b = window.location.href.split("#")[1],
 		c = jQuery("header").outerHeight(true),
 		hb = jQuery("html, body");
-		// jQuery(".scroll-nav a").each(function() {
-		// 	var b = new Image();
-		// 	b.src = jQuery(this).data("bgscr");
-		// 	a.push(b);
-		// });
+		jQuery(".scroll-nav a").each(function() {
+			var b = new Image();
+			b.src = jQuery(this).data("bgscr");
+			a.push(b);
+		});
 		jQuery(".loader").fadeOut(500, function() {
 			jQuery("#main").animate({
 				opacity: "1"
@@ -239,7 +239,7 @@ function initBionick() {
             var a = jQuery(".background-video").data("ytPlayer").player;
         }
     });
-    // var bgi2 = jQuery(".fbgs").data("bgscr");
+    var bgi2 = jQuery(".fbgs").data("bgscr");
     var bgt2 = jQuery(".fbgs").data("bgtex");
     jQuery(".bg-scroll").css("background-image", "url(" + bgi2 + ")");
     jQuery(".bg-title span").html(bgt2);
@@ -252,9 +252,9 @@ function initBionick() {
         currentClass: "act-link",
         onComplete: function() {
             if (jQuery(".scroll-nav  a").hasClass("act-link")) jQuery(".scroll-nav  a.act-link").each(function() {
-                // var a = jQuery(this).data("bgscr"),
+                var a = jQuery(this).data("bgscr"),
                 b = jQuery(this).data("bgtex");
-                // jQuery(".bg-scroll").css("background-image", "url(" + a + ")");
+                jQuery(".bg-scroll").css("background-image", "url(" + a + ")");
                 jQuery(".bg-title span").html(b);
             });
         }
