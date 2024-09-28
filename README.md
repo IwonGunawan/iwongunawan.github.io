@@ -1,3 +1,4 @@
-> Waiting list
-  - fixed load image 
-  - change theme (optional)
+Waiting List
+  - fixed load image
+  - more information
+  - detail working
