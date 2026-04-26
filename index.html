@@ -5,40 +5,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   
-  <title>My Profile</title>       
-  <link rel="shortcut icon" href="image/icon/favicon_logo.png" type="image/x-icon" />
+  <title>Portfolio | Iwon Gunawan</title>
+  <link rel="shortcut icon" href="assets/image/icon/favicon_logo.png" type="assets/image/x-icon" />
 	
-  <link rel='stylesheet' href="css/custome.css" type="text/css" >
-  <link rel='stylesheet' href='css/styles.css' id='contact-form-7-css' type='text/css' media='all' />
-  <link rel='stylesheet' href='css/reset.css' id='reset-css' type='text/css' media='all' />
-  <link rel='stylesheet' href='css/plugins.css' id='plugins-css' type='text/css' media='all' />
-  <link rel='stylesheet' href='css/style.css' id='style-css' type='text/css' media='all' />
-  <link rel='stylesheet' href='css/color.css' id='color-css' type='text/css' media='all' />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href="assets/css/custome.css" type="text/css" >
+  <link rel='stylesheet' href='assets/css/styles.css' id='contact-form-7-css' type='text/css' media='all' />
+  <link rel='stylesheet' href='assets/css/reset.css' id='reset-css' type='text/css' media='all' />
+  <link rel='stylesheet' href='assets/css/plugins.css' id='plugins-css' type='text/css' media='all' />
+  <link rel='stylesheet' href='assets/css/style.css' id='style-css' type='text/css' media='all' />
+  <link rel='stylesheet' href='assets/css/color.css' id='color-css' type='text/css' media='all' />
   <link rel="stylesheet" type="text/css" href='vendor/font-awesome-4.7.0/css/font-awesome.min.css'>
 
-  <script type='text/javascript' src='js/jquery.js'></script>
-  <script type='text/javascript' src='js/jquery-migrate.min.js'></script>
-
-  <style type="text/css">
-  	.float{
-			position:fixed;
-			width:60px;
-			height:60px;
-			bottom:40px;
-			right:40px;
-			background-color:#25d366;
-			color:#FFF;
-			border-radius:50px;
-			text-align:center;
-			font-size:30px;
-			box-shadow: 2px 2px 3px #999;
-			z-index:100;
-		}
-
-		.my-float{
-			margin-top:16px;
-		}
-  </style>
+  <script type='text/javascript' src='assets/js/jquery.js'></script>
+  <script type='text/javascript' src='assets/js/jquery-migrate.min.js'></script>
 
 <body>
 
@@ -54,7 +34,7 @@
     <header>
         <div class="logo-holder">
         <a href="#" >
-            <h2>MyProfile</h2>
+            <h2>Iwon</h2>
         </a>
         </div>
         <div class="nav-button">
@@ -76,13 +56,16 @@
 						<nav>
 							<!-- start main nav -->
 							<ul class="">
-								<li id="menu-item-216"  class="menu-item menu-item-type-post_type menu-item-object-page" > <a class="custom-scroll-link" href="#about-2" data-toggle="my-scrollspy-2">
-									About</a></li>
-								<li id="menu-item-219"  class="menu-item menu-item-type-post_type menu-item-object-page" > <a class="custom-scroll-link" href="#resume" data-toggle="my-scrollspy-2">
-									Resume</a></li>
-								
-								<li id="menu-item-223"  class="menu-item menu-item-type-post_type menu-item-object-page" > <a class="custom-scroll-link" href="#skills" data-toggle="my-scrollspy-2">
-									Skills</a></li>
+								<li id="menu-item-219"  class="menu-item menu-item-type-post_type menu-item-object-page" > 
+									<a class="custom-scroll-link" href="#experience-section" data-toggle="my-scrollspy-2">Experience</a></li>
+								<li id="menu-item-223"  class="menu-item menu-item-type-post_type menu-item-object-page" > 
+									<a class="custom-scroll-link" href="#education-section" data-toggle="my-scrollspy-2">Education</a></li>
+								<li id="menu-item-223"  class="menu-item menu-item-type-post_type menu-item-object-page" > 
+									<a class="custom-scroll-link" href="#job-section" data-toggle="my-scrollspy-2">Job Responsibilities</a></li>
+								<li id="menu-item-223"  class="menu-item menu-item-type-post_type menu-item-object-page" > 
+									<a class="custom-scroll-link" href="#skills-section" data-toggle="my-scrollspy-2">Skills</a></li>
+								<li id="menu-item-223"  class="menu-item menu-item-type-post_type menu-item-object-page" > 
+									<a class="custom-scroll-link" href="#portfolio-section" data-toggle="my-scrollspy-2">Portfolio</a></li>
 							</ul>
 						</nav>      
 					</div>
@@ -92,13 +75,18 @@
           <div class="hero-wrapper">
 						<div class="section-parallax" data-top-bottom="transform: translateY(450px);" data-bottom-top="transform: translateY(-450px);">
 						    <div class="media-container">
-					        <div class='bg' style=background-image:url('image/1970-offfice.jpg') width='1200' height='793'></div>								
+					        <div class='bg' style='background-image:url("assets/image/hero-bg2.png")' width='1200' height='793'></div>		
 					        <div class="overlay"></div>
 						    </div>
 							
 							<div class="hero-title">
 					        <div class="hero-wrap" data-top-bottom="transform: translateY(-150px);" data-bottom-top="transform: translateY(150px);">
-					            <h3>Hi</h3>
+					            <h3>Software Engineer</h3>
+											<div class="hero-description">
+												Software Engineer dengan 8+ tahun pengalaman di web, mobile, dan backend development.
+												Saat ini berperan sebagai Squad Lead yang memimpin 3 - 5 engineer dalam pengembangan marketplace superapp menggunakan NestJS & Nx monorepo. <br/>
+												Berpengalaman membangun scalable system, API architecture, dan delivery end-to-end product.
+											</div>
 					            <div class="clearfix"></div>
 					            <h4><a href="#sec1" class="custom-scroll-link">Show More ...</a></h4>
 					        </div>
@@ -119,23 +107,24 @@
 		          <!--=============== SCROLL PAGE NAVIGATION ===============-->
               <div class="scroll-nav-holder">
                 <nav class="scroll-nav">
-                	<!-- 
-                		data-bgscr="assets/images/frontend/aboutus.jpg"
-                		1257832_97691437.jpg
-                		it-services.jpg
-                		about_us_Comp.jpg
-                		-->
-						    <ul>								     
-						      <li>
-										<a class="scroll-link fbgs" href="#about-2" data-bgscr="" data-bgtex="About Me">
-										<span>About</span></a></li>																     
+						    <ul>
 								  <li>
-										<a class="scroll-link fbgs" href="#resume" data-bgscr="" data-bgtex="My Experience">
-										<span>Experience</span></a></li>																     
-								 																     
+										<a class="scroll-link fbgs" href="#experience-section" data-bgscr="assets/image/profile1.png" data-bgtex="Experience">
+										<span>Experience</span></a></li>																     														     
 								  <li>
-										<a class="scroll-link fbgs" href="#skills" data-bgscr="" data-bgtex="My skills">
-										<span>Skills</span></a></li>									
+										<a class="scroll-link fbgs" href="#education-section" data-bgscr="assets/image/profile2.png" data-bgtex="Education">
+										<span>Education</span></a></li>
+									<li>
+										<a class="scroll-link fbgs" href="#job-section" data-bgscr="assets/image/profile3.png" data-bgtex="Jobs">
+										<span>Job Responsibilities</span></a></li>
+									<li>
+										<a class="scroll-link fbgs" href="#skills-section" data-bgscr="assets/image/profile4.png" data-bgtex="Skills">
+										<span>Skills</span></a></li>
+									<li>
+										<a class="scroll-link fbgs" href="#portfolio-section" data-bgscr="assets/image/profile5.png" data-bgtex="Portfolio">
+										<span>Portfolio</span></a></li>
+									</li>
+
 						    </ul>
 								</nav>                
 							</div>
@@ -143,77 +132,8 @@
 
 
               <div class="content" id="sec1">
-			          <!--=============== ABOUT ===============-->
-								<section id="about-2">
-								    
-									<div class="container">
-										<div class="section-title">
-											<div class="sect-subtitle" data-top-bottom="transform: translateY(-300px);" data-bottom-top="transform: translateY(300px);">
-												<span>Who i am</span>
-											</div>
-											<h3>Who i am </h3>
-										</div>
-																
-										<div class="wrapper-content">			
-											<div  class="vc_row wpb_row vc_row-fluid">
-												<div class="vc_col-sm-5 wpb_column vc_column_container ">
-													<div class="wpb_wrapper">
-													<div class="sec-image post-media ">
-													<img src="image/image1.jpg" style="width:;height:;float:none;margin:;padding:;position:inherit;top:;bottom:;right:;left:;" alt="img" class="img-responsive"/>
-													</div>
-													</div> 
-												</div> 
-												<div class="vc_col-sm-7 wpb_column vc_column_container ">
-													<div class="wpb_wrapper">
-													   <div class="text-title ">
-															 <h2 id="about_name" style="font-size: 12px">Software Engineer</h2>
-														 </div>
-												           
-													   <div class="text-title ">
-															 <h3 id="about_jobs">
-															 	Iwon Gunawan
-															 </h3>
-														 </div>
-												            
-													     <div class="sec-text ">
-													     	<p id="about_content">
-													     		I’m a Software Engineer with 5+ years of experience in building scalable, efficient web and backend applications. 
-																	Currently working at a tech startup, I take part in the full product lifecycle—from idea validation and prototyping to live deployment and iteration. <br />
-																	I work primarily with JavaScript, TypeScript, Node.js, NestJs and a range of modern development tools.
-																	My focus is on crafting solutions that are not only technically sound but also meaningful to end users. <br />
-																	Working in a fast-paced startup environment, I’ve developed strong adaptability, cross-functional collaboration skills, and a pragmatic problem-solving mindset. <br />
-																	I’m passionate about learning new technologies and always open to connect with fellow tech professionals, product builders, and digital innovators. <br /><br />
-																	Core Skills: <br />
-																	- Backend Development (Node.js, NestJS) <br />
-																	- Web APIs, RestApi, gRPC, Microservices & Monorepo <br />
-																	- JavaScript / TypeScript <br />
-																	- Database Design (MySQL, SQLite, MongoDB, DynamoDB ) <br />	
-																	- Agile & Startup Environment <br />
-													     	</p>
-													    <!-- <div class="sec-button">
-																<div class="inline-facts-holder">
-																	<div class="inline-facts">
-																		<div class="milestone-counter">
-																			<div class="stats animaper">
-																				<div class="num" data-content="34" data-num="34"></div><h6>Finished projects</h6>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<a class="btn hide-icon" href="#" target="_blank" id="about_view"><i class="fa fa-angle-right"></i><span>View Work</span></a>
-															</div> -->
-													</div> 
-												</div> 
-											</div>		
-										</div>	
-									</div>                    
-								</section> 
-								<!-- END ABOUT -->
-								
-								<div class="section-separator2"></div>
-
-			          <!--=============== RESUME ===============-->
-                <section id="resume">
+			          <!--=============== EXPERIENCE ===============-->
+                <section id="experience-section">
 									<div class="container">
 										<div class="section-title">
 											<div class="sect-subtitle" data-top-bottom="transform: translateY(-300px);" data-bottom-top="transform: translateY(300px);">
@@ -228,14 +148,15 @@
 										<div class="wpb_wrapper">
 										<div class="sec-resume "><div class="accordion" data-name="1">
 											<div class="accordion-title transition">
-												<h5><a href="#"><i class="fa fa-briefcase"></i>Dec 2019 - Jul 2022 <span> : </span><span>Work in &#8220;Phintraco Technology &#8220;</span></a></h5></div>
+												<h5><a href="#"><i class="fa fa-briefcase"></i>
+													Dec 2019 - Jul 2022 : Phintraco Technology  <span>Android Developer</span>
+												</a></h5>
+											</div>
 												<div class="accordion-inner">
-														<h4><b>Android Developer</b></h4>
-														<b>Job Description:</b><br/>
+														<h4>Job Description:</h4>
 														As an Android Developer at Phintraco Technology, I was involved in the development and maintenance of enterprise mobile applications, including work for major clients like BCA (Bank Central Asia). I collaborated with other engineers to design features, fix bugs, and maintain app performance and security.
-														<br/><br/>
 
-														<b>Key Responsibilities & Achievements:</b>
+														<h4>Key Responsibilities & Achievements:</h4>
 														<ul>
 															<li>Contributed to the development and enhancement of the Key BCA app, including secure authentication and cryptographic integration.</li>
 															<li>Handled API integration and ensured smooth communication with backend services.</li>
@@ -243,17 +164,19 @@
 															<li>Applied clean architecture principles (e.g., MVVM, dependency injection with Hilt/Dagger).</li>
 															<li>Participated in debugging, code reviews, and performance tuning.</li>
 															<li>Coordinated with QA and business analysts for feature testing and validation.</li>
-														</ul><br />
+														</ul>
 
-														<b>Tech Stack:</b>
+														<h4>Tech Stack:</h4>
 														Java, Android Studio, Firebase, MVVM, Dagger/Hilt, Retrofit, Coroutines, Room, Glide, Material Design, Navigation Component, WorkManager, and more.
 												</div>
 
 
 											<div class="accordion-title transition">
-												<h5><a href="#"><i class="fa fa-briefcase"></i>May 2017 - Nov 2019 <span> : </span><span>Work in &#8220;PT.Kosada Group Indonesia &#8220;</span></a></h5></div>
+												<h5><a href="#"><i class="fa fa-briefcase"></i>
+													May 2017 - Nov 2019 : PT.Kosada Group Indonesia <span>Mobile Developer</span>
+												</a></h5>
+											</div>
 												<div class="accordion-inner">
-														<h4><b>Mobile Developer</b></h4>
 														<b>Job Description:</b><br/>
 														As a Mobile Developer at Barantum.com, I was responsible for developing and maintaining mobile CRM applications on both Android and iOS platforms using Ionic Framework. I collaborated with designers, QA/QC teams, and backend developers to deliver user-centric features and ensure cross-platform consistency.
 														<br/><br/>
@@ -274,9 +197,11 @@
 												</div>
 
 											<div class="accordion-title transition">
-												<h5><a href="#"><i class="fa fa-briefcase"></i>Jun 2016 – May 2017<span> : </span><span>Work in &#8220;PT.Kosada Group Indonesia &#8220;</span></a></h5></div>
+												<h5><a href="#"><i class="fa fa-briefcase"></i>
+													Jun 2016 - May 2017 : PT.Kosada Group Indonesia <span>Fullstack Web Developer</span>
+												</a></h5>
+											</div>
 												<div class="accordion-inner">
-													<h4><b>Fullstack Web Developer</b></h4>
 														<b>Job Description:</b><br/>
 														As a fullstack Web Developer at Barantum.com, I was responsible for developing and maintaining a web-based CRM platform tailored to business needs. I worked closely with product managers and QA to deliver key features that supported sales teams and customer service operations.
 														<br/><br/>
@@ -354,19 +279,116 @@
 										</div>	
 									</div>                    
 								</section> 
-								<!-- END RESUME -->
-              	
               	<div class="section-separator2"></div>
-								
-			          <!--=============== 
-===============-->
-                			
-								<!-- END PORTFOLIO -->
-              	
+			          <!--=============== END EXPERIENCE ===============-->
+
+								<!--=============== EDUCATION ===============-->
+								<section id="education-section">
+									<div class="container">
+										<div class="section-title">
+											<h3>EDUCATION</h3>
+										</div>
+																
+										<div class="wrapper-content">			
+											<div  class="vc_row wpb_row vc_row-fluid">
+												<div class="vc_col-sm-5 wpb_column vc_column_container ">
+													<div class="wpb_wrapper">
+													<div class="sec-image post-media ">
+													<!-- <img src="assets/image/profile-image.png"  alt="img" class="img-responsive"/> -->
+													</div>
+													</div> 
+												</div> 
+												<div class="vc_col-sm-7 wpb_column vc_column_container ">
+													<div class="wpb_wrapper">
+													   <div class="text-title ">
+															 <h2 id="about_name" style="font-size: 12px">Software Engineer</h2>
+														 </div>
+												           
+													   <div class="text-title ">
+															 <h3 id="about_jobs">
+															 	Iwon Gunawan
+															 </h3>
+														 </div>
+												            
+													     <div class="sec-text ">
+													     	<p id="about_content">
+													     		Software Engineer dengan 8+ tahun pengalaman di web, mobile, dan backend development. Saat ini berperan sebagai Squad Lead yang memimpin 3 - 5 engineer dalam pengembangan marketplace superapp menggunakan NestJS & Nx monorepo. Berpengalaman membangun scalable system, API architecture, dan delivery end-to-end product.
+													     	</p>
+													    <div class="sec-button">
+																<div class="inline-facts-holder">
+																	<div class="inline-facts">
+																		<div class="milestone-counter">
+																			<div class="stats animaper">
+																				<div class="num" data-content="34" data-num="34"></div><h6>Finished projects</h6>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<a class="btn hide-icon" href="#" target="_blank" id="about_view"><i class="fa fa-angle-right"></i><span>View Work</span></a>
+															</div>
+													</div> 
+												</div> 
+											</div>		
+										</div>	
+									</div>                    
+								</section> 
               	<div class="section-separator2"></div>
+								<!--=============== END EDUCATION ===============-->
+
+								<!--=============== JOB RESPONSIBILITES ===============-->
+								<section id="job-section">
+									<div class="container">
+										<div class="section-title">
+											<h3>JOB RESPONSIBILITES</h3>
+										</div>
+																
+										<div class="wrapper-content">			
+											<div  class="vc_row wpb_row vc_row-fluid">
+												<div class="vc_col-sm-5 wpb_column vc_column_container ">
+													<div class="wpb_wrapper">
+													<div class="sec-image post-media ">
+													</div>
+													</div> 
+												</div> 
+												<div class="vc_col-sm-7 wpb_column vc_column_container ">
+													<div class="wpb_wrapper">
+													   <div class="text-title ">
+															 <h2 id="about_name" style="font-size: 12px">Software Engineer</h2>
+														 </div>
+												           
+													   <div class="text-title ">
+															 <h3 id="about_jobs">
+															 	Iwon Gunawan
+															 </h3>
+														 </div>
+												            
+													     <div class="sec-text ">
+													     	<p id="about_content">
+													     		Software Engineer dengan 8+ tahun pengalaman di web, mobile, dan backend development. Saat ini berperan sebagai Squad Lead yang memimpin 3 - 5 engineer dalam pengembangan marketplace superapp menggunakan NestJS & Nx monorepo. Berpengalaman membangun scalable system, API architecture, dan delivery end-to-end product.
+													     	</p>
+													    <div class="sec-button">
+																<div class="inline-facts-holder">
+																	<div class="inline-facts">
+																		<div class="milestone-counter">
+																			<div class="stats animaper">
+																				<div class="num" data-content="34" data-num="34"></div><h6>Finished projects</h6>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<a class="btn hide-icon" href="#" target="_blank" id="about_view"><i class="fa fa-angle-right"></i><span>View Work</span></a>
+															</div>
+													</div> 
+												</div> 
+											</div>		
+										</div>	
+									</div>                    
+								</section> 
+              	<div class="section-separator2"></div>
+								<!--=============== END JOB RESPONSIBILITES ===============-->
 	 							
 			          <!--=============== SKILLS ===============-->
-                <section id="skills">
+                <section id="skills-section">
 									<div class="container">
 										<div class="section-title">
 										    <div class="sect-subtitle" data-top-bottom="transform: translateY(-300px);" data-bottom-top="transform: translateY(300px);">
@@ -428,9 +450,60 @@
 									    </div>	
 									</div>                    
 								</section>
-              	<!-- END SKILLS -->
+								<div class="section-separator2"></div>
+			          <!--=============== END SKILLS ===============-->
+
+								<!--=============== PORTFOLIO ===============-->
+								<section id="portfolio-section">
+									<div class="container">
+										<div class="section-title">
+											<h3>PORTFOLIO</h3>
+										</div>
+																
+										<div class="wrapper-content">			
+											<div  class="vc_row wpb_row vc_row-fluid">
+												<div class="vc_col-sm-5 wpb_column vc_column_container ">
+													<div class="wpb_wrapper">
+													<div class="sec-image post-media ">
+													</div>
+													</div> 
+												</div> 
+												<div class="vc_col-sm-7 wpb_column vc_column_container ">
+													<div class="wpb_wrapper">
+													   <div class="text-title ">
+															 <h2 id="about_name" style="font-size: 12px">Software Engineer</h2>
+														 </div>
+												           
+													   <div class="text-title ">
+															 <h3 id="about_jobs">
+															 	Iwon Gunawan
+															 </h3>
+														 </div>
+												            
+													     <div class="sec-text ">
+													     	<p id="about_content">
+													     		Software Engineer dengan 8+ tahun pengalaman di web, mobile, dan backend development. Saat ini berperan sebagai Squad Lead yang memimpin 3 - 5 engineer dalam pengembangan marketplace superapp menggunakan NestJS & Nx monorepo. Berpengalaman membangun scalable system, API architecture, dan delivery end-to-end product.
+													     	</p>
+													    <div class="sec-button">
+																<div class="inline-facts-holder">
+																	<div class="inline-facts">
+																		<div class="milestone-counter">
+																			<div class="stats animaper">
+																				<div class="num" data-content="34" data-num="34"></div><h6>Finished projects</h6>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<a class="btn hide-icon" href="#" target="_blank" id="about_view"><i class="fa fa-angle-right"></i><span>View Work</span></a>
+															</div>
+													</div> 
+												</div> 
+											</div>		
+										</div>	
+									</div>                    
+								</section> 
+								<!--=============== END PORTFOLIO ===============-->
               	
-              	<div class="section-separator2"></div>   
 		     	 	 	</div> <!-- end .content -->
           </div>  <!-- end .wrapper-inner home-wrap --> 
 
@@ -474,15 +547,15 @@
 </div> <!-- .main -->
 
 
-<link rel='stylesheet' href='css/js_composer.css' id='js_composer_front-css' type='text/css' media='all' />
-<script type='text/javascript' src='js/comment-reply.min.js'></script>
-<script type='text/javascript' src='js/jquery.form.min.js'></script>
-<script type='text/javascript' src='js/scripts.js'></script>
-<script type='text/javascript' src='js/jquery.min.js'></script>
-<script type='text/javascript' src='js/plugins.js'></script>
-<script type='text/javascript' src='js/scripts2.js'></script>
-<script type='text/javascript' src='js/custom.js'></script>
-<script type='text/javascript' src='js/js_composer_front.js'></script>
+<link rel='stylesheet' href='assets/css/js_composer.css' id='js_composer_front-css' type='text/css' media='all' />
+<script type='text/javascript' src='assets/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='assets/js/jquery.form.min.js'></script>
+<script type='text/javascript' src='assets/js/scripts.js'></script>
+<script type='text/javascript' src='assets/js/jquery.min.js'></script>
+<script type='text/javascript' src='assets/js/plugins.js'></script>
+<script type='text/javascript' src='assets/js/scripts2.js'></script>
+<script type='text/javascript' src='assets/js/custom.js'></script>
+<script type='text/javascript' src='assets/js/js_composer_front.js'></script>
 
 </body>
 </html>	
