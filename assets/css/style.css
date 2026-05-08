@@ -760,8 +760,9 @@ header {
   margin-top: 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 15px;
 }
 .halig-center h3,
 .halig-center h4 {
